@@ -26,9 +26,11 @@ Taking a look at [ASP.Net Core Repos](https://github.com/aspnet/) helped digest 
 
 
 ## Good learning links
+In building this, I referenced alot of online videos, documentation and articles, below is an attempt to keep track of these
 | Topic 
 |----|----
 | [Localization and Globalization for Blazor](https://soluling.com/Help/Blazor/Index.htm) |  
 | [Opinionated Approach to ASP.NET Core" talk by Scott Allen Video](https://www.youtube.com/watch?v=qxb62AErRWw)
 | [AddResponseCompression for Blazor in MS Docs](https://docs.microsoft.com/en-us/aspnet/core/performance/response-compression?view=aspnetcore-3.1)
 |[Debug ASP.Net Core WebAssembly MS Docs](https://docs.microsoft.com/en-au/aspnet/core/blazor/debug?tabs=visual-studio-code&view=aspnetcore-3.1#vscode)
+| [Blazor Hosting models](https://docs.microsoft.com/en-us/aspnet/core/blazor/hosting-models?view=aspnetcore-3.1)
