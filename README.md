@@ -21,9 +21,14 @@ Taking a look at [ASP.Net Core Repos](https://github.com/aspnet/) helped digest 
 | Add a Blazor WASM solution, rewire the solution file| Done | 13 Jul 2020
 | Add build and deployment to azure website | TODO |
 | Add a EF Core solution with a console app to run db migrations and a simple sample database for customer information | TODO | --
+|Add a localisation example | TODO | --
+|Add dockerfile to deploy to docker container | TODO | --
+
 
 ## Good learning links
 | Topic 
 |----|----
 | [Localization and Globalization for Blazor](https://soluling.com/Help/Blazor/Index.htm) |  
-[Opinionated Approach to ASP.NET Core" talk by Scott Allen Video](https://www.youtube.com/watch?v=qxb62AErRWw)
+| [Opinionated Approach to ASP.NET Core" talk by Scott Allen Video](https://www.youtube.com/watch?v=qxb62AErRWw)
+| [AddResponseCompression for Blazor in MS Docs](https://docs.microsoft.com/en-us/aspnet/core/performance/response-compression?view=aspnetcore-3.1)
+|[Debug ASP.Net Core WebAssembly MS Docs](https://docs.microsoft.com/en-au/aspnet/core/blazor/debug?tabs=visual-studio-code&view=aspnetcore-3.1#vscode)
