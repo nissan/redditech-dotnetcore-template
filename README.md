@@ -1,5 +1,5 @@
 # redditech-dotnetcore-template
-A sample .NET Core solution template implementation inspired by the "Opinionated Approach to ASP.NET Core" talk by Scott AllenVideo link at
+A sample .NET Core solution template implementation inspired by (but not faithful to *all* of) the "Opinionated Approach to ASP.NET Core" talk by Scott AllenVideo link at
 https://www.youtube.com/watch?v=qxb62AErRWw and adding some of my own preferences for Redditech projects.
 
 
