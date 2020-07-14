@@ -18,12 +18,12 @@ Taking a look at [ASP.Net Core Repos](https://github.com/aspnet/) helped digest 
 | Task | Status | Date | Notes
 |----|----|---|----
 | Create project folders and structure | Done | 13 Jul 2020 | Mostly copied from Scott Allen video in links
-| Add a Blazor WASM solution, rewire the solution file| Done | 13 Jul 2020
+| Add a Blazor WASM solution, rewire the solution file| Done | 13 Jul 2020 | used `dotnet new blazorwasm --hosted`
 | Add build and deployment to azure website | TODO |
 | Add a EF Core solution with a console app to run db migrations and a simple sample database for customer information | TODO | --
 |Add a localisation example | TODO | --
-|Add dockerfile to deploy to docker container | TODO | --
-
+|Add dockerfile to deploy Blazor WASM app to docker container | TODO | --
+|Add global.json |
 
 ## Good learning links
 In building this, I referenced alot of online videos, documentation and articles, below is an attempt to keep track of these
