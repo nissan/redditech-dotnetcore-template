@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
@@ -13,7 +14,12 @@ namespace Reddi.BlazorApp.Server
     {
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
+            var host = CreateHostBuilder(args).Build();
+            using (var serviceScope = host.Services.GetRequiredService<IServiceScopeFactory>().CreateScope())
+            {
+                //load services here instead
+            }
+            host.Run();s
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
